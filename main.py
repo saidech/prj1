@@ -9,5 +9,5 @@ city = input("Enter a city ")
 base_url = "http://api.openweathermap.org/data/2.5/weather?appid=" + API_Key + "&q=" + city
 
 weather_data = requests.get(base_url).json()
-# -rev 1.0
+# -rev 2.0
 pprint(weather_data)
